@@ -36,7 +36,7 @@ exports.createWallet = async (req, res) => {
         email,
         first_name,
         last_name,
-        contact_type: "personal",
+        contact_type: `${type === "company" ? "business" : "personal"}`,
         country: "SG",
         address: {
           name: `${first_name} ${last_name}`,

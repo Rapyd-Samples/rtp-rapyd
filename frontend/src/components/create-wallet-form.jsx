@@ -83,7 +83,7 @@ const CreateWalletForm = ({ fetchUser }) => {
       <button
         disabled={loading}
         type="submit"
-        className={`px-4 py-2 ${
+        className={`px-4 py-2 cursor-pointer ${
           loading ? "bg-blue-300" : "bg-blue-600"
         }  text-white rounded`}
       >

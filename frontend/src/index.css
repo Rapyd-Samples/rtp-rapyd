@@ -1,5 +1,10 @@
-@tailwind base;
+@import "tailwindcss";
 
-@tailwind components;
+button {
+  cursor: pointer;
+}
 
-@tailwind utilities;
+input,
+select {
+  border-color: #cecdcd;
+}

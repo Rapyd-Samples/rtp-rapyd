@@ -2,7 +2,7 @@ const TransactionItem = ({ tx, walletData, loading, respondToTransfer }) => {
   // If the user is the receiver of the transaction
   if (walletData.id === tx.receiver) {
     return (
-      <div className="border rounded-md p-2 px-4 my-2">
+      <div className="border-[#eee] border rounded-md p-2 px-4 my-2">
         <p>
           <span className="text-gray-400">{tx.sender}</span> wants to send
           <span className="font-bold text-blue-400">
@@ -61,7 +61,7 @@ const TransactionItem = ({ tx, walletData, loading, respondToTransfer }) => {
   // If the user is the sender of the transaction
   else if (walletData.id === tx.sender) {
     return (
-      <div className="border rounded-md p-2 px-4 my-2">
+      <div className="border border-[#eee] rounded-md p-2 px-4 my-2">
         <p>
           You sent{" "}
           <span className="font-bold text-red-400">
