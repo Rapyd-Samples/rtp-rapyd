@@ -78,6 +78,7 @@ const CreateWalletForm = ({ fetchUser }) => {
           Select Type{" "}
         </option>
         <option value="person">Person</option>
+        <option value="company">Company</option>
       </select>
       <button
         disabled={loading}
