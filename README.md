@@ -80,5 +80,5 @@ Visit **[http://localhost:3000](http://localhost:3000)** in your browser.
 
 ## **Need Help?**  
 📄 **Rapyd API Docs**: [https://docs.rapyd.net](https://docs.rapyd.net/en/index-en.html)  
-🤝 **Rapyd Dev Community**: [https://community.rapyd.net](https:community.rapyd.net)   
+🤝 **Rapyd Dev Community**: [https://community.rapyd.net](https://community.rapyd.net)   
 🐞 **Report Issues**: [GitHub Issues](https://github.com/Giftea/rtp-rapyd/issues)  
